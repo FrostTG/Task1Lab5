@@ -16,7 +16,7 @@ namespace Task1Lab5
             float S = 0;            
             for (int i = 0; i < n; i++)
             {            
-                array[i] = (float)Convert.ToDouble(Console.ReadLine()); //долго мучался пытаясь понять, как правильно записать данную строчку) Забыл про явное/неявное преобразование.
+                array[i] = (float)Convert.ToDouble(Console.ReadLine()); //долго мучался пытаясь понять, как правильно записать данную строчку) Забыл про явное/неявное преобразование
                 S += array[i];
             }
             Console.WriteLine("Среднее арифметическое чисел равно {0:f2}",S / n);
